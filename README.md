@@ -1,4 +1,4 @@
-# FaceTracing
+# FaceTracing  人脸识别
 
 1 人脸采样 压缩文件
     a 根据登录用户userid生成对应的压缩文件
