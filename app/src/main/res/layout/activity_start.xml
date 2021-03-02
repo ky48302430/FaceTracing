@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginRight="16dp"
+    android:layout_marginLeft="16dp"
+    android:orientation="vertical"
+    tools:context=".StartActivity">
+
+    <Button
+        android:id="@+id/pick"
+        android:text="采集"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="150dp"
+        android:onClick="onPick"
+        />
+
+    <Button
+        android:id="@+id/recognition"
+        android:text="识别"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onRecognition"
+        />
+
+    <Button
+        android:id="@+id/uploadFile"
+        android:text="上传"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onUploadFile"
+        />
+
+    <Button
+        android:id="@+id/downloadFile"
+        android:text="下载"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:onClick="onDownloadFile"
+        />
+
+
+</LinearLayout>
